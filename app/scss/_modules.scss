@@ -35,3 +35,39 @@
   background-color: #A22118;
   border-radius: 2px;
 }
+
+
+.footer-mistake-none {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    order: 2;
+  }
+
+  p {
+    color: #E6E4E5;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .footer-mistake-command {
+    color: #E6E4E5;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600;
+
+    .footer-mistake-button {
+      background-color: #0A293D;
+      width: 70px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+    }
+  }
+}

@@ -399,6 +399,10 @@ footer {
       flex-wrap: wrap;
       padding: 30px 0;
 
+      @media (max-width: 767px) {
+        justify-content: center;
+      }
+
       .footer-menu {
         display: flex;
 
@@ -413,6 +417,9 @@ footer {
               padding: 6px;
               text-decoration: none;
 
+              &:hover {
+                text-decoration: underline;
+              }
             }
           }
         }
@@ -435,38 +442,76 @@ footer {
         }
       }
 
-      .footer-logo-mistake {
+      .footer-logo {
+        margin: 20px 0;
 
-        .footer-logo {
-          margin: 20px 0;
+        img {
+          @media (max-width: 767px) {
+            width: 100%;
+          }
         }
 
-        .footer-mistake {
+        @media (max-width: 767px) {
+          display: flex;
+          order: 0;
+        }
+      }
 
-          p {
-            color: #E6E4E5;
-            margin-top: 50px;
-            text-align: center;
-          }
+      .footer-mistake {
 
-          .footer-mistake-command {
-            color: #E6E4E5;
+        @media (max-width: 767px) {
+          display: none;
+          flex-direction: column;
+          margin: auto;
+          order: 2;
+        }
+
+        p {
+          color: #E6E4E5;
+          margin-top: 50px;
+          text-align: center;
+        }
+
+        .footer-mistake-command {
+          color: #E6E4E5;
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+          font-weight: 600;
+
+          .footer-mistake-button {
+            background-color: #0A293D;
+            width: 70px;
+            height: 20px;
             display: flex;
             justify-content: center;
-            margin-top: 20px;
-            font-weight: 600;
-
-            .footer-mistake-button {
-              background-color: #0A293D;
-              width: 70px;
-              height: 20px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              margin: 0 5px;
-            }
+            align-items: center;
+            margin: 0 5px;
           }
         }
+      }
+
+      .footer-social-team {
+        display: flex;
+        @media (max-width: 767px) {
+          display: flex;
+          margin: auto;
+          order: 1;
+        }
+      }
+    }
+  }
+
+  .footer-copyright {
+    background-color: #262626;
+    padding: 10px 40px;
+
+    p {
+      color: #DBDBDB;
+      text-align: center;
+
+      @media (max-width: 767px) {
+        text-align: justify;
       }
     }
   }

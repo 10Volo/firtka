@@ -635,6 +635,9 @@ footer {
       justify-content: space-between;
       flex-wrap: wrap;
       padding: 30px 0; }
+      @media (max-width: 767px) {
+        footer .footer-top .footer-content {
+          justify-content: center; } }
       footer .footer-top .footer-content .footer-menu {
         display: flex; }
         footer .footer-top .footer-content .footer-menu .footer-menu-top {
@@ -644,6 +647,8 @@ footer {
             color: #E6E4E5;
             padding: 6px;
             text-decoration: none; }
+            footer .footer-top .footer-content .footer-menu .footer-menu-top li a:hover {
+              text-decoration: underline; }
         footer .footer-top .footer-content .footer-menu .footer-menu-bottom {
           list-style-type: none; }
           footer .footer-top .footer-content .footer-menu .footer-menu-bottom li a {
@@ -652,19 +657,32 @@ footer {
             text-decoration: none; }
             footer .footer-top .footer-content .footer-menu .footer-menu-bottom li a:hover {
               text-decoration: underline; }
-      footer .footer-top .footer-content .footer-logo-mistake .footer-logo {
+      footer .footer-top .footer-content .footer-logo {
         margin: 20px 0; }
-      footer .footer-top .footer-content .footer-logo-mistake .footer-mistake p {
+        @media (max-width: 767px) {
+          footer .footer-top .footer-content .footer-logo img {
+            width: 100%; } }
+        @media (max-width: 767px) {
+          footer .footer-top .footer-content .footer-logo {
+            display: flex;
+            order: 0; } }
+      @media (max-width: 767px) {
+        footer .footer-top .footer-content .footer-mistake {
+          display: none;
+          flex-direction: column;
+          margin: auto;
+          order: 2; } }
+      footer .footer-top .footer-content .footer-mistake p {
         color: #E6E4E5;
         margin-top: 50px;
         text-align: center; }
-      footer .footer-top .footer-content .footer-logo-mistake .footer-mistake .footer-mistake-command {
+      footer .footer-top .footer-content .footer-mistake .footer-mistake-command {
         color: #E6E4E5;
         display: flex;
         justify-content: center;
         margin-top: 20px;
         font-weight: 600; }
-        footer .footer-top .footer-content .footer-logo-mistake .footer-mistake .footer-mistake-command .footer-mistake-button {
+        footer .footer-top .footer-content .footer-mistake .footer-mistake-command .footer-mistake-button {
           background-color: #0A293D;
           width: 70px;
           height: 20px;
@@ -672,6 +690,22 @@ footer {
           justify-content: center;
           align-items: center;
           margin: 0 5px; }
+      footer .footer-top .footer-content .footer-social-team {
+        display: flex; }
+        @media (max-width: 767px) {
+          footer .footer-top .footer-content .footer-social-team {
+            display: flex;
+            margin: auto;
+            order: 1; } }
+  footer .footer-copyright {
+    background-color: #262626;
+    padding: 10px 40px; }
+    footer .footer-copyright p {
+      color: #DBDBDB;
+      text-align: center; }
+      @media (max-width: 767px) {
+        footer .footer-copyright p {
+          text-align: justify; } }
 
 @media (max-width: 767px) {
   .disp-none {
@@ -699,3 +733,30 @@ footer {
   height: 3px;
   background-color: #A22118;
   border-radius: 2px; }
+
+.footer-mistake-none {
+  display: none; }
+  @media (max-width: 767px) {
+    .footer-mistake-none {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      order: 2; } }
+  .footer-mistake-none p {
+    color: #E6E4E5;
+    margin-top: 50px;
+    text-align: center; }
+  .footer-mistake-none .footer-mistake-command {
+    color: #E6E4E5;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600; }
+    .footer-mistake-none .footer-mistake-command .footer-mistake-button {
+      background-color: #0A293D;
+      width: 70px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px; }
