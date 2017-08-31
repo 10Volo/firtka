@@ -610,7 +610,8 @@ header {
           background-color: #000000; } }
 
 .empty-height {
-  height: 500px; }
+  height: 500px;
+  background-color: gray; }
 
 footer {
   width: 100%; }
