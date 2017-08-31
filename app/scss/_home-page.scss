@@ -494,7 +494,9 @@ footer {
       .footer-social-team {
         display: flex;
         @media (max-width: 767px) {
+          width: 100%;
           display: flex;
+          justify-content:center;
           margin: auto;
           order: 1;
         }

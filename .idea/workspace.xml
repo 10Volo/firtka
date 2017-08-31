@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15417bed-cdea-4cc5-a8a2-30349a080525" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_helper.scss" afterPath="$PROJECT_DIR$/app/scss/_helper.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_home-page.scss" afterPath="$PROJECT_DIR$/app/scss/_home-page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/_modules.scss" afterPath="$PROJECT_DIR$/app/scss/_modules.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,8 +38,8 @@
           <file leaf-file-name="_home-page.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/scss/_home-page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
-                  <caret line="497" column="23" lean-forward="false" selection-start-line="497" selection-start-column="23" selection-end-line="497" selection-end-column="23" />
+                <state relative-caret-position="166">
+                  <caret line="496" column="18" lean-forward="true" selection-start-line="496" selection-start-column="18" selection-end-line="496" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -138,7 +134,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-4" />
     <option name="width" value="1366" />
     <option name="height" value="719" />
@@ -223,12 +219,12 @@
       <workItem from="1504093210062" duration="19640000" />
       <workItem from="1504176281036" duration="16927000" />
       <workItem from="1504206291199" duration="59000" />
-      <workItem from="1504206455195" duration="3645000" />
+      <workItem from="1504206455195" duration="4389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46268000" />
+    <option name="totallyTimeSpent" value="47012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,7 +236,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1366" height="719" extended-state="7" />
+    <frame x="0" y="-4" width="1366" height="719" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -482,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_home-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="497" column="23" lean-forward="false" selection-start-line="497" selection-start-column="23" selection-end-line="497" selection-end-column="23" />
+        <state relative-caret-position="166">
+          <caret line="496" column="18" lean-forward="true" selection-start-line="496" selection-start-column="18" selection-end-line="496" selection-end-column="18" />
           <folding />
         </state>
       </provider>

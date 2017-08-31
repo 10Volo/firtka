@@ -694,7 +694,9 @@ footer {
         display: flex; }
         @media (max-width: 767px) {
           footer .footer-top .footer-content .footer-social-team {
+            width: 100%;
             display: flex;
+            justify-content: center;
             margin: auto;
             order: 1; } }
   footer .footer-copyright {
