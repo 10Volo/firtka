@@ -503,6 +503,9 @@ header {
   @media (max-width: 767px) {
     header .menu-nav.show .menu {
       transform: translateX(0); } }
+  @media (max-width: 991px) {
+    header .menu-nav .menu {
+      margin: 0; } }
   header .menu-nav .menu .menu-top {
     width: 100%;
     display: flex;
@@ -510,9 +513,10 @@ header {
     justify-content: space-between;
     margin: 11px 0;
     padding: 0 120px; }
-    @media (max-width: 991px) {
+    @media (max-width: 767px) {
       header .menu-nav .menu .menu-top {
-        padding: 10px; } }
+        margin: 0;
+        padding: 10px 10px 0 10px; } }
     header .menu-nav .menu .menu-top li a {
       color: #194665;
       padding: 5px;
@@ -524,6 +528,13 @@ header {
       @media (max-width: 991px) {
         header .menu-nav .menu .menu-top li a {
           padding: 0 5px; } }
+  @media (max-width: 991px) and (max-width: 767px) {
+    header .menu-nav .menu .menu-top li a {
+      font-size: 16px;
+      border-bottom: 1px solid #194665;
+      width: 100%;
+      display: flex;
+      padding: 3px 0; } }
   header .menu-nav .menu .menu-bottom {
     background-color: #2D709D;
     width: 100%;
@@ -534,6 +545,9 @@ header {
     @media (max-width: 991px) {
       header .menu-nav .menu .menu-bottom {
         padding: 10px; } }
+  @media (max-width: 991px) and (max-width: 767px) {
+    header .menu-nav .menu .menu-bottom {
+      background-color: rgba(25, 70, 101, 0.7); } }
     header .menu-nav .menu .menu-bottom li a {
       color: #E6E4E5;
       padding: 10px;
@@ -541,6 +555,13 @@ header {
       padding: 5px 10px; }
       header .menu-nav .menu .menu-bottom li a:hover {
         background-color: #125275; }
+      @media (max-width: 767px) {
+        header .menu-nav .menu .menu-bottom li a {
+          width: 100%;
+          display: flex;
+          font-size: 16px;
+          border-bottom: 1px solid #ffffff;
+          padding: 3px 0; } }
   @media (max-width: 991px) {
     header .menu-nav .menu ul {
       display: flex;
@@ -552,6 +573,9 @@ header {
     header .menu-nav .menu {
       display: flex;
       margin: 20px; } }
+  @media (max-width: 991px) and (max-width: 767px) {
+    header .menu-nav .menu {
+      margin: 0; } }
   @media (max-width: 767px) {
     header .menu-nav .menu {
       position: fixed;

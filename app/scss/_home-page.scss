@@ -199,6 +199,10 @@ header {
 
     .menu {
 
+      @media (max-width: 991px) {
+        margin: 0;
+      }
+
       .menu-top {
         width: 100%;
         display: flex;
@@ -207,8 +211,9 @@ header {
         margin: 11px 0;
         padding: 0 120px;
 
-        @media (max-width: 991px) {
-          padding: 10px;
+        @media (max-width: 767px) {
+          margin: 0;
+          padding: 10px 10px 0 10px;
         }
 
         li {
@@ -226,6 +231,14 @@ header {
 
             @media (max-width: 991px) {
               padding: 0 5px;
+
+              @media (max-width: 767px) {
+                font-size: 16px;
+                border-bottom: 1px solid #194665;
+                width: 100%;
+                display: flex;
+                padding: 3px 0;
+              }
             }
           }
         }
@@ -241,6 +254,12 @@ header {
 
         @media (max-width: 991px) {
           padding: 10px;
+
+          @media (max-width: 767px) {
+            background-color: rgba(25, 70, 101, 0.7);
+            //background-color: rgba(0, 0, 0, 0.95);
+          }
+
         }
 
         li {
@@ -249,12 +268,19 @@ header {
             color: #E6E4E5;
             padding: 10px;
             text-decoration: none;
+            padding: 5px 10px;
 
             &:hover {
               background-color: #125275;
             }
 
-            padding: 5px 10px;
+            @media (max-width: 767px) {
+              width: 100%;
+              display: flex;
+              font-size: 16px;
+              border-bottom: 1px solid #ffffff;
+              padding: 3px 0;
+            }
           }
         }
       }
@@ -281,9 +307,15 @@ header {
           }
         }
       }
+
+
       @media (max-width: 991px) {
         display: flex;
         margin: 20px;
+
+        @media (max-width: 767px) {
+          margin: 0;
+        }
       }
 
     }
